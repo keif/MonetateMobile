@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -15,10 +7,10 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
+import monetateStateStoreIntegrationSDK from 'monetate-state-store-integration-sdk';
 import {LearnMoreLinks, Colors} from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+const MonetateMobile: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -80,4 +72,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default MonetateMobile;
